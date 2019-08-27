@@ -1,0 +1,21 @@
+{
+  "name": "babel-plugin-import-helper",
+  "version": "0.0.1",
+  "description": "用于修改 business-ui 组件库按需加载的babel插件",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "umi-tools test --coverage",
+    "build": "umi-tools build"
+  },
+  "publishConfig": {
+    "registry": "https://npm.taobao.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://gitlab.taobao.org/ptd/cp/fe/babel-plugin-dawn-import"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "umi-tools": "^0.4.0"
+  }
+}
