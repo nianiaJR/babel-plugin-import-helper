@@ -1,4 +1,4 @@
-## babel-plugin-dawn-import
+## babel-plugin-import-helper
 此插件主要目的是针对使用 [business-ui](http://business-ui.taobao.org) (1.12.0版本后) 的项目，在生产环境编译打包时，只把使用到的文件进行打包，避免引入冗余文件
 
 ### 版本兼容性
@@ -19,7 +19,7 @@ import { Modal } from 'business-ui/lib/Modal'
 
 ```bash
 // npm registry: https://npm.taobao.org
-$ npm install babel-plugin-dawn-import
+$ npm install babel-plugin-import-helper
 ```
 
 ### 使用插件
@@ -29,7 +29,7 @@ $ npm install babel-plugin-dawn-import
   "plugins": [ 
     // 最好把此插件放在最前面
     [
-      "dawn-import",
+      "import-helper",
       {
         libraryName: "business-ui"
       }
